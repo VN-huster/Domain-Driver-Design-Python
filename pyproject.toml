@@ -1,0 +1,18 @@
+[project]
+name = "grpc-ddd-architecture"
+version = "0.1.0"
+description = "Project using gRPC and Domain Driver Design"
+authors = [
+    {name = "HuanNN"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "grpcio (>=1.72.1,<2.0.0)",
+    "grpcio-tools (>=1.72.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
